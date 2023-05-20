@@ -1,0 +1,108 @@
+@media screen and (max-width:1200px) {
+    .footer-menu li a {
+        margin: 0 6px !important;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .first-mid-section-btn button:first-child {
+        padding: 6px 110px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .first-mid-section-btn button:first-child {
+        padding: 4px 80px !important;
+    }
+
+    .footer-menu li a {
+        font-size: 13px !important;
+    }
+
+    .menu-prev {
+        display: none !important;
+    }
+
+    .navbar-navigation-right {
+        width: 50vw !important;
+        right: -60vw !important;
+    }
+
+    .second-menu img {
+        width: 20vw !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .collection-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .swiper {
+        padding-right: auto !important;
+    }
+    .article-title button {
+       font-size: 10px !important;
+       padding:5px 10px !important;
+    }
+    .first-section a {
+        font-size: 16px !important;
+    }
+
+    header {
+        display: none;
+    }
+
+    .second-menu {
+        display: flex;
+    }
+
+    .second-menu i {
+        font-size: 20px !important;
+    }
+
+    .menu-line {
+        background-color: white !important;
+    }
+
+    .footer-menu li a {
+        margin: 0 !important;
+        font-size: 8px !important;
+    }
+
+    .footer-icon a i {
+        font-size: 15px !important;
+        margin: 0 5px !important;
+    }
+
+    .about-us a,
+    i {
+        font-size: 8px !important;
+        justify-content: center !important;
+    }
+
+    .contact-us p,
+    a {
+        font-size: 10px !important;
+    }
+
+    .first-mid-section-btn button {
+        margin-bottom: 20px;
+    }
+
+    .second-section {
+        text-align: center;
+    }
+
+    .navbar-navigation-right {
+        width: 60vw !important;
+    }
+    .about-burger-menu i{
+        font-size: 10px !important;
+    }
+}
